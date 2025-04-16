@@ -8,8 +8,8 @@ PRINTER_NAME = "Jolimark_TP510"
 
 # List of possible prompts to show after printing
 prompts = [
-    "how does it taste",
-    "can you describe my edges",
+    "how does it taste?",
+    "can you describe my edges?",
     "draw me like one of the moon tales",
     "be my mirror",
     "how close can we really be"
