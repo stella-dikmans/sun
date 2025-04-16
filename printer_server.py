@@ -21,7 +21,7 @@ def print_text():
 
     subprocess.run(["lp", "-d", PRINTER_NAME, "printjob.txt"])
 
-    # ✅ THIS LINE REDIRECTS BACK TO THE FORM
+    # 👇 This makes the browser go back to the form, with a new message!
     return redirect(url_for('index', message="Printed!"))
 
 if __name__ == '__main__':
