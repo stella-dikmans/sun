@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Burn';
-    src: url('fonts/Burn.ttf') format('truetype');
+    src: url('/fonts/Burn.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
