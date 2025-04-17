@@ -1,23 +1,3 @@
-
-@font-face {
-    font-family: 'Burn';
-    src: url('/fonts/Burn.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1 {
-    font-family: 'Burn', sans-serif;
-    font-size: 64px;
-    color: #ff4d00;
-    text-shadow:
-        0 0 10px #ff9900,
-        0 0 20px #ff5500,
-        0 0 30px #ff2200,
-        0 0 40px #ff0000;
-    animation: flicker 0.2s infinite alternate;
-}
-
 body, html {
     margin: 0;
     padding: 0;
@@ -49,6 +29,18 @@ body, html {
     border-radius: 10px;
 }
 
+h1 {
+    font-family: 'Lucida Console', Monaco, monospace;
+    font-size: 50px;
+    color: #ff4d00;
+    text-shadow:
+        0 0 10px #ff9900,
+        0 0 20px #ff5500,
+        0 0 30px #ff2200,
+        0 0 40px #ff0000;
+    animation: flicker 0.2s infinite alternate;
+}
+
 textarea {
     width: 300px;
     height: 150px;
@@ -66,10 +58,11 @@ textarea:focus {
 }
 
 button {
+    font-family: 'Lucida Console', Monaco, monospace;
     margin-top: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.4);
     color: #333333;
     border: none;
     border-radius: 5px;
