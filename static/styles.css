@@ -1,0 +1,62 @@
+/* Make sure there's no margin/padding messing things up */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+/* Style for the video background */
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+/* Centered form content */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333333;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eee;
+}
